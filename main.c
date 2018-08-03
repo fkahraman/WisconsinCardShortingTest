@@ -219,7 +219,7 @@ int SelectFigureNumber(int figureNo)
     printf("Please select to number of figure!\n\n");
     printf("1- One\n");
     printf("2- Two\n");
-    printf("3- Tree\n");
+    printf("3- Three\n");
     printf("4- Four\n");
     printf("5- Five\n");
     printf("6- Six\n");
@@ -1307,6 +1307,6 @@ int main()
         case 2: ShowAllCards();goto Menu;
         case 3: BuildCards();goto Menu;
         case 0: break;
-        //default: system("CLS");
+        default: goto Menu;
     }
 }
